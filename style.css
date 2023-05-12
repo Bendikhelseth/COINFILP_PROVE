@@ -1,0 +1,43 @@
+/* Gennerel styling på hele siden, fjerner padding og margin på side kantene, og setter border-box */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Stiller text i midten og gir margin */
+.textContainer {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resetbutton {
+    background-color: black;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    margin: 15px 0px;
+    font-weight: bold;
+    color: white;
+}
+
+.mynter {
+    display: flex;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+img:hover {
+    box-shadow: 3px 3px lightgray;
+}
